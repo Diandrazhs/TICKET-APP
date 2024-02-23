@@ -3,8 +3,8 @@ alert("WELCOME TO TICKET APP!");
 const nama = prompt("Masukkan Nama Anda");
 const umur = prompt("Masukkan Umur Anda");
 
-if (umur > 13) {
-    const studio = prompt("Pilih Studio (A/B/C):");
+if (umur >= 13) {
+    const studio = prompt("Pilih Studio : \n 1. Studio A \n 2. Studio B \n 3. Studio C");
 
     if (studio === `A`) {
         alert(`Tiket ${nama}, Studio A, Umur ${umur}`);
